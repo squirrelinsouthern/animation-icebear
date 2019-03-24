@@ -17,7 +17,7 @@
         } 
     }) 
 
-    var duration = 10
+    var duration = 5
     function writeCode(prefix, code, fn) {
         let container = document.getElementById('code')
         let styleTag = document.getElementById('styleTag')
