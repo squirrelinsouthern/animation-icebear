@@ -6,7 +6,7 @@
             .siblings('.active').removeClass('active')
         switch(speed){
             case 'slow':
-                duration = 40
+                duration = 30
                 break
             case 'normal':
                 duration = 15
@@ -17,7 +17,7 @@
         } 
     }) 
 
-    var duration = 50
+    var duration = 15
     function writeCode(prefix, code, fn) {
         let container = document.getElementById('code')
         let styleTag = document.getElementById('styleTag')
