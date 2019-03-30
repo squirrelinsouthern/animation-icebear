@@ -210,9 +210,9 @@
         top: 139px;
         left: 50%;
         margin-left: -65px;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
+        -webkit-animation-name: blink;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
     }
    /*
     * 画白熊的右眼
@@ -226,9 +226,9 @@
         top: 139px;
         right: 50%;
         margin-right: -65px;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
+        -webkit-animation-name: blink;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
     }
    /*
     * 盯住，，，有彩蛋哦~
