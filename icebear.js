@@ -233,7 +233,7 @@
    /*
     * 盯住，，，有彩蛋哦~
     */
-    @keyframes blink {
+    @-webkit-keyframes blink {
         0% {
            transform: scaleX(1) scaleY(1);
         }
