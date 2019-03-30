@@ -235,15 +235,15 @@
     */
     @-webkit-keyframes blink {
         0% {
-           transform: scaleX(1) scaleY(1);
+           -webkit-transform: scaleX(1) scaleY(1);
         }
 
         5% {
-            transform: scaleX(1.4) scaleY(0.1);
+            -webkit-transform: scaleX(1.4) scaleY(0.1);
         }
 
         15% {
-            transform: scaleX(1) scaleY(1);
+            -webkit-transform: scaleX(1) scaleY(1);
         }
     }
    /*
